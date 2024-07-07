@@ -1,0 +1,22 @@
+input {
+  text-align: center;
+}
+
+.inputSection {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#gifList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 0.5em;
+}
