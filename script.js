@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   let userInput = document.getElementById("userInput");
-  const api_key = secrets.GIPHY_API_KEY;
+  const api_key = "U57EjmM9fOth6BBbD3hrv8orByvwKG1T";
   const baseUrl = "https://api.giphy.com/v1/gifs/";
   let gifDiv = document.getElementById("gifList");
   let buttons = document.getElementsByTagName("button");
