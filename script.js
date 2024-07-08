@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   getTrendingGifs();
 
+  //input event handler
   userInput.addEventListener("keyup", (e) => {
     gifDiv.innerHTML = "";
     let searchTerm = userInput.value.trim();
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     userInput.value = "";
     getTrendingGifs();
   });
-  //loop over the other buttons and add an event listener.  Use data-searchTerm attribute to set the correct endpoint for each button
+  //event handlers for other buttons - loop over the other buttons and add an event listener.  Use data-searchTerm attribute to set the correct endpoint for each button
   for (let i = 1; i < buttons.length; i++) {
     buttons[i].addEventListener("click", (e) => {
       userInput.value = "";
